@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.container {
+    text-align: center; /* Center content inside container */
+}
+
+h1 {
+    color: red;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%; /* Makes the div a circle */
+    margin: 20px auto; /* Center with some margin */
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 0 auto; /* Center horizontally */
+}
